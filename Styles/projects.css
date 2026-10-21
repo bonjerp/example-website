@@ -1,0 +1,58 @@
+/* --- project grids --- */
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* --- project cards --- */
+.projectCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.projectCard h3 {
+    font-size: 3em;
+}
+
+.projectCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCardImg img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 12px;
+}
+
+
+
+/* .projectGrid > div:nth-child(1) {
+    grid-column: span 2;
+}
+
+.projectGrid > div:nth-child(4) {
+    grid-column: span 2;
+} */
+
+/* --- responsive grid (update) --- */
+@media (max-width: 600px) {
+    .projectGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Keep spanning cards within the single-column layout. */
+@media (max-width: 600px) {
+    .projectGrid > div:nth-child(1),
+    .projectGrid > div:nth-child(4) {
+        grid-column: auto;
+    }
+}
