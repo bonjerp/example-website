@@ -13,10 +13,10 @@ body {
 
    margin: 0;
 }
-
+/* 
 main {
    padding: 10px 25px 25px 25px;
-}
+} */
 
 
 /* --- header --- */
@@ -85,13 +85,11 @@ nav a:hover {
 
 
 /* ----- */
-.section {
+/* .section {
    margin: 30px 6% 30px 6%;
    padding: 30px 30px 30px 30px;
-   background-color: rgb(255, 255, 255);
-   /* border: 1px solid rgb(208, 215, 222); */
-   /* border-radius: 6px; */
-} 
+
+}  */
 
 .section h2 {
    /* font-family: "Gaegu", cursive; */

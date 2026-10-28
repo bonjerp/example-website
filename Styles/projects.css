@@ -1,8 +1,26 @@
 /* --- project grids --- */
+
+/* #projects {
+    background-color: rgb(234, 238, 242);
+} */
+/* #show-case{
+    background-color: rgb(234, 238, 242);
+
+} */
+
+#showcase {
+    /* background-color: rgb(234, 238, 242); */
+    margin: 60px 6% 60px 6%;
+    padding: 60px 60px 60px 60px;
+    border-top: 1px solid rgb(208, 215, 222);
+     
+}
+
 .projectGrid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 40px;
+    padding: 80px 80px 80px 80px;
 }
 
 /* --- project cards --- */
@@ -16,6 +34,7 @@
 
 .projectCard h3 {
     font-size: 3em;
+    font-weight: bold;
 }
 
 .projectCardImg {
@@ -31,6 +50,22 @@
     max-height: 300px;
     border-radius: 12px;
 }
+
+
+.projectTag {
+    display: flex;
+    
+    
+
+}
+
+span{
+    padding: 5px;
+    border: 1px solid rgb(208, 215, 222);
+    background-color: rgb(208, 215, 222);;
+    border-radius: 6px; 
+}
+
 
 
 

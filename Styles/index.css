@@ -1,5 +1,9 @@
 
 /* --- intro --- */
+/* #intro {
+    background-color: rgb(234, 238, 242);
+} */
+
 .intro {
 
     display: flex;
@@ -8,6 +12,8 @@
 
     min-height: 75vh;
     padding: 50px 6% 50px 6%;
+    
+    
 }
 
 .intro-text {
